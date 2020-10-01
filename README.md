@@ -1,27 +1,39 @@
-<div>
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=laohanme&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=false" />
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=laohanme&hide_langs_below=1" />
-</div>
+```Swift
+import LHxHub
 
-**Current Focus**  
-<code>
-<img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png">
-<img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
-<img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png">
-</code>
-
-<!--
-**laohanme/laohanme** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
- 
+struct MyProfile {
+    
+    static func who_am_i() -> String {
+        return "Hi there 👋, I'm LaoHan"
+    }
+    
+    static func what_i_do() -> [String] {
+        return [
+            "Website Development",
+            "Mobile Apps Development"
+        ]
+    }
+    
+    static func current_learn() -> [String] {
+        return [
+            "Swift",
+            "Javascript",
+            "Laravel",
+            "React Native",
+            "Flutter",
+            "Wordpress"
+        ]
+    }
+    
+    static func my_open_source() -> String {
+        return "LHxHub"
+    }
+    
+    static func my_social() -> [String] {
+        return [
+            "http://ig.laohan.stream",
+        ]
+    }
+    
+}
+```
