@@ -16,12 +16,7 @@ struct MyProfile {
     
     static func current_learn() -> [String] {
         return [
-            "Swift",
-            "Javascript",
-            "Laravel",
-            "React Native",
-            "Flutter",
-            "Wordpress"
+            "Swift"
         ]
     }
     
@@ -31,7 +26,7 @@ struct MyProfile {
     
     static func my_social() -> [String] {
         return [
-            "http://ig.laohan.stream",
+            "https://dub.sh/V92LTUD",
         ]
     }
     
